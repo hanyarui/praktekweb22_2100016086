@@ -4,7 +4,7 @@ function myFunction() {
 
     if (username == "coba" && password == "tes") {
         alert("You are a valid user");
-        window.open("homepage.html","_self");
+        window.location.replace("homepage.html");
     } else {
         alert("You are not a valid user");
     }
