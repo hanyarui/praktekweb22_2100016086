@@ -4,7 +4,7 @@ function myFunction() {
 
     if (username == "coba" && password == "tes") {
         alert("You are a valid user");
-        location.replace("homepage.html");
+        location.replace("https://ruinzyu.github.io/praktekweb22_2100016086/homepage.html");
     } else {
         alert("You are not a valid user");
     }
