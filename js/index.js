@@ -4,7 +4,7 @@ function myFunction() {
 
     if (username == "coba" && password == "tes") {
         alert("You are a valid user");
-        fetch("homepage.html");
+        window.open("homepage.html","_self");
     } else {
         alert("You are not a valid user");
     }
